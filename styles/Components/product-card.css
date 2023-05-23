@@ -1,0 +1,45 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.product-card__img {
+    border-radius: 8px;
+}
+
+.product-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.product-card__row-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card__name {
+
+}
+
+.product-card__cost {
+    font-weight: 600;
+}
+
+.product-card__cost::after {
+    content: "\20BD";
+}
+
+
+.product-card__description {
+    color: var(--font-light);
+}
+
+.product-card__date {
+    font-size: 14px;
+    font-weight: 500;
+}
