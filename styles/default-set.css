@@ -11,7 +11,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: var(--primary-dark);
+    color: var(--fonts-base);
     background-color: var(--white);
 }
 
@@ -58,9 +58,6 @@ select {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 0 auto;
-    padding: 32px 0;
-    min-height: 100%;
     max-width: 1400px;
 }

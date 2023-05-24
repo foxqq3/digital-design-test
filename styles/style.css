@@ -4,10 +4,10 @@
 @import "default-set.css";
 
 /* Components style */
-@import "components/product-card.css";
-@import "components/button.css";
+@import "components/card.css";
 
 /* Blocks style */
 @import "blocks/header.css";
 @import "blocks/main.css";
+@import "blocks/products.css";
 @import "blocks/footer.css";

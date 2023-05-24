@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Market title</title>
 </head>
@@ -18,15 +22,16 @@
             fill="var(--primary)" />
         </svg>
       </a>
-      <ul class="header__menu">
-        <li><a href="" class="header__menu-item">Одежда</a></li>
-        <li><a href="" class="header__menu-item">Обувь</a></li>
-        <li><a href="" class="header__menu-item">Аксессуары</a></li>
-      </ul>
+      <nav>
+        <ul class="header__menu">
+          <li><a href="" class="header__menu-item">Одежда</a></li>
+          <li><a href="" class="header__menu-item">Обувь</a></li>
+          <li><a href="" class="header__menu-item">Аксессуары</a></li>
+        </ul>
+      </nav>
       <div class="header__switch-theme">
         <svg width="24" height="24" fill="none">
-          <g stroke="var(--primary-dark)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            clip-path="url(#a)">
+          <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#a)">
             <circle cx="12" cy="12" r="6" />
             <path
               d="M22.5 12H21M1.5 12H3M12 1.5V3M12 22.5V21M19.5 4.5l-1.06 1.06M4.5 19.5l1.06-1.06M19.56 19.56 18.5 18.5M4.44 4.44 5.5 5.5" />
@@ -35,46 +40,936 @@
       </div>
     </header>
     <main class="main">
-      <h1 class="title-category">
-        Одежда
-      </h1>
-      <div class="">Main content</div>
-      <ul class="main__products-grid">
-        <li class="product-card">
-          <div class="product-card__img-wrapper">
-            <img class="product-card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
-          </div>
-          <div class="product-card__info">
-            <div class="product-card__row-wrapper">
-              <span class="product-card__name">Футболка</span>
-              <span class="product-card__cost">1000 </span>
+      <h1 class="main__title">Neos - интернет-магазин одежды и аксессуаров</h1>
+      <section class="products">
+        <h2 class="products__title">
+          Одежда
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
             </div>
-            <span class="product-card__description">Черная, хлопок</span>
-            <span class="product-card__date">Воскресенье, 1 неделя Января 2022 года</span>
-            <button class="button">
-              Приобрести
-            </button>
-          </div>
-        </li>
-      </ul>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="products">
+        <h2 class="products__title">
+          Обувь
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="products">
+        <h2 class="products__title">
+          Аксессуары
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__img-wrapper">
+                <img class="card__img" src="img/products/clothes/t-shirt.png" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <div class="card__row-wrapper">
+                  <span>Футболка</span>
+                  <span class="card__cost">1000 </span>
+                </div>
+                <span class="card__description">Черная, хлопок</span>
+                <time class="card__date">Воскресенье, 1 неделя Декабря 2022 года</time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
-      <a href="" class="footer__logo">
-        <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
-            fill="var(--primary)" />
-        </svg>
-      </a>
       <div class="footer__info">
-        <div class="footer__info-list">
-          <span class ="footer__info-list-title">Категории товаров</span>
-          <ul class="footer__info-links">
-            <li class="footer__menu-item"><a href="" class="footer__menu-item-link">Одежда</a></li>
-            <li class="footer__menu-item"><a href="" class="footer__menu-item-link">Обувь</a></li>
-            <li class="footer__menu-item"><a href="" class="footer__menu-item-link">Аксессуары</a></li>
+        <a href="" class="footer__logo">
+          <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
+              fill="var(--primary)" />
+          </svg>
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a
+          laoreet libero dis eget maecenas bibendum.
+        </p>
+      </div>
+      <div class="footer__info">
+        <span class="footer__info-title">Категории товаров</span>
+        <nav>
+          <ul class="footer__links">
+            <li><a href="" class="footer__links-item">Одежда</a></li>
+            <li><a href="" class="footer__links-item">Обувь</a></li>
+            <li><a href="" class="footer__links-item">Аксессуары</a></li>
           </ul>
-        </div>
+        </nav>
+      </div>
+      <div class="footer__info">
+        <span class="footer__info-title">Категории товаров</span>
+        <nav>
+          <ul class="footer__links">
+            <li><a href="" class="footer__links-item">Одежда</a></li>
+            <li><a href="" class="footer__links-item">Обувь</a></li>
+            <li><a href="" class="footer__links-item">Аксессуары</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__info">
+        <span class="footer__info-title">Категории товаров</span>
+        <nav>
+          <ul class="footer__links">
+            <li><a href="" class="footer__links-item">Одежда</a></li>
+            <li><a href="" class="footer__links-item">Обувь</a></li>
+            <li><a href="" class="footer__links-item">Аксессуары</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
