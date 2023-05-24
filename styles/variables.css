@@ -1,11 +1,13 @@
 :root {
-    --primary: #5E81F4;
-    --primary-dark: #1C1D21;
     --white: #ffffff;
-    --button-hover: #475eab;
-    --font-light: #8181A5;
+    --mischka: #D0D5DD;
+    --waterloo: #8181A5;
+    --cornflower-blue: #5E81F4;
+    --san-marino: #475eab;
+    --oxford-blue: #374957;
 
-    /* new colors */
+    /* set colors */
 
-    --fonts-base: #374957 ;
+    --background: var(--white);
+    --font-base-color: var(--oxford-blue);
 }

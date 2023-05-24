@@ -8,7 +8,7 @@
     flex-direction: column;
     gap: 30px;
     padding: 20px 0 12px;
-    border-top: 1px solid #d0d5dd;
+    border-top: 1px solid var(--mischka);
 }
 
 .footer__logo {
@@ -25,7 +25,7 @@
 .footer__info-title {
     display: flex;
     font-weight: 600;
-    color: var(--font-light);
+    color: var(--waterloo);
 }
 
 .footer__links {
