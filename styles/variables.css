@@ -20,7 +20,6 @@
         --header-color: var(--white);
         --background: var(--white);
         --font-base-color: var(--oxford-blue);
-        --up-button-color-hover: var(--san-marino);
         --up-button-bg-color-hover: var(--white-40);
     }
 
@@ -30,7 +29,6 @@
         --header-color: var(--shark);
         --background: var(--shark);
         --font-base-color: var(--white);
-        --up-button-color-hover: var(--san-marino);
         --up-button-bg-color-hover: var(--white-70);
     }
 

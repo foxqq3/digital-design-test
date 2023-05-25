@@ -16,8 +16,8 @@
 }
 
 .up-button:hover {
-    color: var(--up-button-color-hover);
-    border-color: var(--up-button-color-hover);
+    color: var(--san-marino);
+    border-color: var(--san-marino);
     background-color: var(--up-button-bg-color-hover);
     transform: scale(1.05);
 }
