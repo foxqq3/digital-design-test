@@ -1,13 +1,13 @@
 .footer {
-    margin-top: 24px;
+    margin-top: 32px;
     padding: 0 16px;
 }
 
 .footer__wrapper{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 20px 0 12px;
+    gap: 28px;
+    padding: 32px 0;
     border-top: 1px solid var(--mischka);
 }
 
@@ -36,13 +36,13 @@
 
 @media (min-width: 768px) {
     .footer {
-        margin-top: 40px;
+        margin-top: 44px;
         padding: 0 24px;
     }
 
     .footer__wrapper{
         flex-direction: row;
-        padding: 20px 0 12px;
+        padding: 44px 0;
     }
 
     .footer__info {
@@ -56,7 +56,7 @@
         padding: 0 36px;
     }
 
-    .footer__wrapper{
-        padding: 20px 0 12px;
+    .footer__wrapper {
+        gap: 36px;
     }
 }

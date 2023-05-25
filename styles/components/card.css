@@ -40,6 +40,14 @@
     justify-content: space-between;
 }
 
+.card__title {
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
 .card__cost {
     font-weight: 600;
 }
