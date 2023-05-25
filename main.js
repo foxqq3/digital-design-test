@@ -3,6 +3,8 @@ import './styles/style.css';
 import './src/smoothScroll.js';
 
 import './src/upButton.js';
+
+import './src/themeSwitch.js'
 // import javascriptLogo from './javascript.svg'
 // import viteLogo from '/vite.svg'
 // import { setupCounter } from './counter.js'

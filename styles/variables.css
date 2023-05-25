@@ -1,4 +1,5 @@
 :root {
+
     /* base colors */
     --white: #ffffff;
     --mischka: #D0D5DD;
@@ -6,12 +7,32 @@
     --cornflower-blue: #5E81F4;
     --san-marino: #475eab;
     --oxford-blue: #374957;
+    --shark: #1C1D21;
 
     /* opacity colors */
     --san-marino-60: rgba(71, 94, 171, 0.6);
     --white-40: rgba(255, 255, 255, 0.4);
+    --white-70: rgba(255, 255, 255, 0.7);
 
     /* set colors */
-    --background: var(--white);
-    --font-base-color: var(--oxford-blue);
+
+    [theme="light"] {
+        --header-color: var(--white);
+        --background: var(--white);
+        --font-base-color: var(--oxford-blue);
+        --up-button-color-hover: var(--san-marino);
+        --up-button-bg-color-hover: var(--white-40);
+    }
+
+    ;
+
+    [theme="dark"] {
+        --header-color: var(--shark);
+        --background: var(--shark);
+        --font-base-color: var(--white);
+        --up-button-color-hover: var(--san-marino);
+        --up-button-bg-color-hover: var(--white-70);
+    }
+
+    ;
 }
