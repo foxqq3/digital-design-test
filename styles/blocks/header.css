@@ -31,9 +31,9 @@
     color: var(--san-marino);
 }
 
-/* .header__switch-theme {
-   
-} */
+.header__switch-theme {
+   cursor: pointer;
+}
 
 @media (min-width: 768px) {
     .header {

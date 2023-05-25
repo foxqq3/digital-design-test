@@ -11,7 +11,7 @@
     border: 3px solid var(--san-marino-60);
     border-radius: 50%;
     background-color: transparent;
-    transition: color 150ms, border-color 150ms, background-color 150ms;
+    transition: color 150ms, border-color 150ms, background-color 150ms, transform 500ms;
     cursor: pointer;
 }
 
@@ -19,6 +19,11 @@
     color: var(--san-marino);
     border-color: var(--san-marino);
     background-color: var(--white-40);
+    transform: scale(1.05);
+}
+
+.up-button_hide{
+    display: none;
 }
 
 @media (min-width: 768px) {
