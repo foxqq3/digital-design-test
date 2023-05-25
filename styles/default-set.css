@@ -8,7 +8,6 @@
 
 html,
 body {
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--font-base-color);
@@ -42,12 +41,6 @@ ol[class] {
     padding: 0;
 }
 
-img,
-svg {
-    max-width: 100%;
-    display: block;
-}
-
 input,
 button,
 textarea,
@@ -56,8 +49,6 @@ select {
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     max-width: 1400px;
 }
