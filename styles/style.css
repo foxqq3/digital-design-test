@@ -5,6 +5,7 @@
 
 /* Components style */
 @import "components/card.css";
+@import "components/up-button.css";
 
 /* Blocks style */
 @import "blocks/header.css";

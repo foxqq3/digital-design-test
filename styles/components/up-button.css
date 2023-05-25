@@ -1,0 +1,36 @@
+.up-button {
+    z-index: 5;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    line-height: 0;
+    padding: 0;
+    height: 44px;
+    width: 44px;
+    color: var(--san-marino-60);
+    border: 3px solid var(--san-marino-60);
+    border-radius: 50%;
+    background-color: transparent;
+    transition: color 150ms, border-color 150ms, background-color 150ms;
+    cursor: pointer;
+}
+
+.up-button:hover {
+    color: var(--san-marino);
+    border-color: var(--san-marino);
+    background-color: var(--white-40);
+}
+
+@media (min-width: 768px) {
+    .up-button {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .up-button {
+        bottom: 24px;
+        right: 30px;
+    }
+}

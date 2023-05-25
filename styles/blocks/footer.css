@@ -3,7 +3,7 @@
     padding: 0 16px;
 }
 
-.footer__wrapper{
+.footer__wrapper {
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -32,7 +32,17 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-} 
+}
+
+.footer__links-item,
+.footer__menu-item {
+    transition: color 150ms;
+}
+
+.footer__menu-item:hover,
+.footer__links-item:hover {
+    color: var(--san-marino);
+}
 
 @media (min-width: 768px) {
     .footer {
@@ -40,7 +50,7 @@
         padding: 0 24px;
     }
 
-    .footer__wrapper{
+    .footer__wrapper {
         flex-direction: row;
         padding: 44px 0;
     }

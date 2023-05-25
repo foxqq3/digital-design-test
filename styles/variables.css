@@ -1,4 +1,5 @@
 :root {
+    /* base colors */
     --white: #ffffff;
     --mischka: #D0D5DD;
     --waterloo: #8181A5;
@@ -6,8 +7,11 @@
     --san-marino: #475eab;
     --oxford-blue: #374957;
 
-    /* set colors */
+    /* opacity colors */
+    --san-marino-60: rgba(71, 94, 171, 0.6);
+    --white-40: rgba(255, 255, 255, 0.4);
 
+    /* set colors */
     --background: var(--white);
     --font-base-color: var(--oxford-blue);
 }
