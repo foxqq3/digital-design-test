@@ -34,12 +34,10 @@
     gap: 8px;
 }
 
-.footer__links-item,
 .footer__menu-item {
     transition: color 150ms;
 }
 
-.footer__menu-item:hover,
 .footer__links-item:hover {
     color: var(--san-marino);
 }

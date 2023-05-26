@@ -1,24 +1,22 @@
-const btnUp = {
-  el: document.querySelector('.up-button'),
-  show() {
-    this.el.classList.remove('up-button_hide');
-  },
-  hide() {
-    this.el.classList.add('up-button_hide');
-  },
-  addEventListener() {
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY || document.documentElement.scrollTop;
-      scrollY > 400 ? this.show() : this.hide();
-    });
-    document.querySelector('.up-button').onclick = () => {
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth',
-      });
-    };
-  },
-};
+export default function upButton() {
+  const upButton = document.querySelector('.up-button');
 
-btnUp.addEventListener();
+  window.addEventListener('scroll', () => {
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(scrollY);
+
+    if (scrollY > 300) {
+      upButton.classList.add('up-button_show');
+    } else {
+      upButton.classList.remove('up-button_show');
+    }
+  });
+
+  upButton.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  });
+}

@@ -1,8 +1,20 @@
 .up-button {
+    display: none;
+}
+
+.up-button:hover {
+    color: var(--san-marino);
+    border-color: var(--san-marino);
+    background-color: var(--up-button-bg-color-hover);
+    transform: scale(1.05);
+}
+
+.up-button_show {
     z-index: 5;
     position: fixed;
     bottom: 10px;
     right: 10px;
+    display: block;
     line-height: 0;
     padding: 0;
     height: 44px;
@@ -13,17 +25,6 @@
     background-color: transparent;
     transition: color 150ms, border-color 150ms, background-color 150ms, transform 500ms;
     cursor: pointer;
-}
-
-.up-button:hover {
-    color: var(--san-marino);
-    border-color: var(--san-marino);
-    background-color: var(--up-button-bg-color-hover);
-    transform: scale(1.05);
-}
-
-.up-button_hide{
-    display: none;
 }
 
 @media (min-width: 768px) {
