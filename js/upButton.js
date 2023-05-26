@@ -3,7 +3,6 @@ export default function upButton() {
 
   window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(scrollY);
 
     if (scrollY > 300) {
       upButton.classList.add('up-button_show');
