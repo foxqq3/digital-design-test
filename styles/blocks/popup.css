@@ -1,5 +1,5 @@
 .popup {
-    z-index: 100;
+    z-index: -1;
     top: 0;
     left: 0;
     position: fixed;
@@ -12,13 +12,13 @@
     background-color: var(--shark-80);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.8s ease 0s;
+    transition: opacity 0.5s;
 }
 
 .popup_show {
+    z-index: 20;
     opacity: 1;
     visibility: visible;
-    transition: all 0.8s ease 0s;
 }
 
 .popup__form {
@@ -31,10 +31,6 @@
     background-color: var(--background);
     border-radius: 8px;
     box-shadow: var(--popup-box-shadow);
-}
-
-.popup__name-form {
-    display: none;
 }
 
 .popup__quantity-wrapper {
@@ -128,6 +124,10 @@
 }
 
 .popup__color-input:hover+.popup__color-input-custom::after {
+    border-color: var(--cornflower-blue);
+}
+
+.popup__color-input:focus+.popup__color-input-custom::after {
     border-color: var(--cornflower-blue);
 }
 

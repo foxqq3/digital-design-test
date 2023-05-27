@@ -14,11 +14,6 @@ body {
     background-color: var(--background);
 }
 
-.body-lock {
-    overflow: hidden;
-    /* overflow-y: scroll; */
-}
-
 ul li,
 menu li {
     list-style: none;

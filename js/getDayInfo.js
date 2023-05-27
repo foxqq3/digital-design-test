@@ -1,5 +1,4 @@
-export default function getDayInfo() {
-  let dateFields = document.querySelectorAll('.card__date');
+export default function getDayInfo(value) {
   const days = [
     'Воскресенье',
     'Понедельник',
@@ -24,8 +23,7 @@ export default function getDayInfo() {
     'Декабря',
   ];
 
-  for (let dateField of dateFields) {
-    const currentDate = new Date(dateField.getAttribute('datetime'));
+    const currentDate = new Date(value);
     const dayOfMonth = currentDate.getDate();
     const dayOfWeek = currentDate.getDay();
     const monthOfYear = currentDate.getMonth();
@@ -41,8 +39,5 @@ export default function getDayInfo() {
       }
     }
 
-    dateField.append(
-      `${days[dayOfWeek]}, ${weekOfMonth} неделя ${months[monthOfYear]} ${year} года`
-    );
-  }
+  return `${days[dayOfWeek]}, ${weekOfMonth} неделя ${months[monthOfYear]} ${year} года`;
 }
