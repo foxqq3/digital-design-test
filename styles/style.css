@@ -4,11 +4,12 @@
 @import "default-set.css";
 
 /* Components style */
-@import "components/card.css";
-@import "components/up-button.css";
+@import "./components/card.css";
+@import "./components/up-button.css";
 
 /* Blocks style */
-@import "blocks/header.css";
-@import "blocks/main.css";
-@import "blocks/products.css";
-@import "blocks/footer.css";
+@import "./blocks/header.css";
+@import "./blocks/main.css";
+@import "./blocks/products.css";
+@import "./blocks/footer.css";
+@import "./blocks/popup.css";
