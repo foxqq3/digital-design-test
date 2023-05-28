@@ -3,12 +3,20 @@
     top: 0;
     left: 0;
     z-index: 10;
+    padding: 0 16px;
+    background-color: var(--header-color);
+}
+
+.header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-    padding: 12px 16px;
-    background-color: var(--header-color);
+    padding: 12px 0;
+}
+
+.header__wrapper_border {
+    border-bottom: 1px solid var(--mischka);
 }
 
 .header__logo {
@@ -47,7 +55,11 @@
 
 @media (min-width: 768px) {
     .header {
-        padding: 16px 24px;
+        padding: 0 24px;
+    }
+
+    .header__wrapper {
+        padding: 16px 0;
     }
 
     .header__logo {
@@ -65,7 +77,11 @@
 
 @media (min-width: 1440px) {
     .header {
-        padding: 20px 36px;
+        padding: 0 36px;
+    }
+
+    .header__wrapper {
+        padding: 20px 0;
     }
 
     .header__logo {

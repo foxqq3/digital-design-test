@@ -1,8 +1,15 @@
 export default function upButton() {
   const upButton = document.querySelector('.up-button');
+  const header = document.querySelector('.header__wrapper');
 
   window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollY > 300) {
+      header.classList.add('header__wrapper_border');
+    } else {
+      header.classList.remove('header__wrapper_border');
+    }
 
     if (scrollY > 300) {
       upButton.classList.add('up-button_show');
