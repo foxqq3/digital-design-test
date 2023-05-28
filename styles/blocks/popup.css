@@ -132,6 +132,7 @@
 }
 
 .popup__comment {
+    padding: 8px;
     width: 100%;
     min-height: 100px;
     color: inherit;

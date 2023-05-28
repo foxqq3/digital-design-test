@@ -13,6 +13,750 @@
 </head>
 
 <body theme="dark">
+  <div class="wrapper">
+    <header class="header">
+      <a href="#" class="header__logo">
+        <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
+            fill="var(--cornflower-blue)" />
+        </svg>
+      </a>
+      <nav>
+        <ul class="header__menu">
+          <li><a href="#clothes" class="header__menu-item js-anchor">Одежда</a></li>
+          <li><a href="#shoes" class="header__menu-item js-anchor">Обувь</a></li>
+          <li><a href="#accessories" class="header__menu-item js-anchor">Аксессуары</a></li>
+        </ul>
+      </nav>
+      <button class="header__switch-theme">
+        <svg width="24" height="24" fill="none">
+          <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#a)">
+            <circle cx="12" cy="12" r="6" />
+            <path
+              d="M22.5 12H21M1.5 12H3M12 1.5V3M12 22.5V21M19.5 4.5l-1.06 1.06M4.5 19.5l1.06-1.06M19.56 19.56 18.5 18.5M4.44 4.44 5.5 5.5" />
+          </g>
+        </svg>
+      </button>
+    </header>
+    <main class="main">
+      <h1 class="main__title">Neos - интернет-магазин одежды и аксессуаров</h1>
+      <section id="clothes" class="products">
+        <h2 class="products__title">
+          Одежда
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/t-shirt.jpg" alt="Футболка">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">1 000 </span>
+                <span class="card__title" title="Футболка">Футболка</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-12-22"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/polo.jpg" alt="Футболка-поло">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">1 500 </span>
+                <span class="card__title" title="Футболка">Футболка-поло</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-04-21"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/hoodie.jpg" alt="Худи">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 500 </span>
+                <span class="card__title" title="Худи">Худи</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-02-01"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/sweatshirt.jpg" alt="Свитшот">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 200 </span>
+                <span class="card__title" title="Свитшот">Свитшот</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-01-22"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/sweater-hot.jpg" alt="Свитер теплый">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">3 000 </span>
+                <span class="card__title" title="Свитер теплый">Свитер теплый</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-12-22"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/sweater.jpg" alt="Свитер">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 600 </span>
+                <span class="card__title" title="Свитер">Свитер</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-10-12"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/huudie-print.jpg" alt="Худи с принтом">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">3 000 </span>
+                <span class="card__title" title="Худи с принтом">Худи с принтом</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-03-11"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/shirt.jpg" alt="Рубашка">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 100 </span>
+                <span class="card__title" title="Рубашка">Рубашка</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-14"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/light-jacket.jpg" alt="Легкая куртка">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">4 200 </span>
+                <span class="card__title" title="Легкая куртка">Легкая куртка</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-11-11"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/hot-jacket.jpg" alt="Утепленная куртка">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">5 400 </span>
+                <span class="card__title" title="Утепленная куртка">Утепленная куртка</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-02-22"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/coat.jpg" alt="Пальто">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">6 100 </span>
+                <span class="card__title" title="Пальто">Пальто</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2021-05-26"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/jeans.jpg" alt="Джинсы">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 100 </span>
+                <span class="card__title" title="Джинсы">Джинсы</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-04-16"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/dress.jpg" alt="Платье">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">2 800 </span>
+                <span class="card__title" title="Платье">Платье</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-04-18"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/clothes/shorts.jpg" alt="Шорты">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">1 600 </span>
+                <span class="card__title" title="Шорты">Шорты</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-06-21"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="shoes" class="products">
+        <h2 class="products__title">
+          Обувь
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/sneakers-vans-classic.jpg"
+                  alt="Кеды Vans классические">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">6 800 </span>
+                <span class="card__title" title="Кеды Vans классические">Кеды Vans классические</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-04-12"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/sneakers-vans-high.jpg" alt="Кеды Vans высокие">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">7 800 </span>
+                <span class="card__title" title="Кеды Vans высокие">Кеды Vans высокие</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-05-12"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/sneakers-converse-high.jpg"
+                  alt="Кеды Converse высокие">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">6 500 </span>
+                <span class="card__title" title="Кеды Converse высокие">Кеды Converse высокие</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2021-07-16"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/newbalance.jpg"
+                  alt="Кросовки New Balance классические">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">12 500 </span>
+                <span class="card__title" title="Кросовки New Balance классические">Кросовки New Balance
+                  классические</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-03-21"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/newbalance-sport.jpg"
+                  alt="Кросовки Nike Balance Sport">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">26 800 </span>
+                <span class="card__title" title="Кросовки Nike Balance Sport">Кросовки Nike Balance Sport</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-03"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/nike-sport.jpg" alt="Кросовки Nike Sport">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">22 800 </span>
+                <span class="card__title" title="Кросовки Nike Sport">Кросовки Nike Sport</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-28"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/nike-air-jordan.jpg" alt="Кросовки Nike Air Jordan">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">33 800 </span>
+                <span class="card__title" title="Кросовки Nike Air Jordan">Кросовки Nike Air Jordan</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-04-03"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/adidas-classic.jpg" alt="Кросовки Adidas Classic">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">18 400 </span>
+                <span class="card__title" title="Кросовки Adidas Classic">Кросовки Adidas Classic</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-09-28"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/asics-gel-lyte.jpg" alt="Кросовки Asics Gel Lyte">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">14 400 </span>
+                <span class="card__title" title="Кросовки Asics Gel Lyte">Кросовки Asics Gel Lyte</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-10-25"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/neos.jpg" alt="Кросовки Neos">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">9 400 </span>
+                <span class="card__title" title="Кросовки Neos">Кросовки Neos</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-16"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/boots-army.jpg" alt="Ботинки Army">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">24 400 </span>
+                <span class="card__title" title="Ботинки Army">Ботинки Army</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-02-11"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/shoes/boots-suede.jpg" alt="Ботинки Suede">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">28 400 </span>
+                <span class="card__title" title="Ботинки Suede">Ботинки Suede</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-03-17"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="accessories" class="products">
+        <h2 class="products__title">
+          Аксессуары
+        </h2>
+        <ul class="products__grid">
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/backpack-fjallraven-kanken.jpg"
+                  alt="Рюкзак Fjallraven Kanken">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">12 200 </span>
+                <span class="card__title" title="Рюкзак Fjallraven Kanken">Рюкзак Fjallraven Kanken</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-04-01"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/backpack-neos-big.jpg" alt="Рюкзак Neos большой">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">6 600 </span>
+                <span class="card__title" title="Рюкзак Neos большой">Рюкзак Neos большой</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2021-07-16"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/backpack-neos-middle.jpg"
+                  alt="Рюкзак Neos средний">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">4 600 </span>
+                <span class="card__title" title="Рюкзак Neos средний">Рюкзак Neos средний</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-05-16"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/travel-bag-textile.jpg"
+                  alt="Дорожная сумка ткань">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">7 000 </span>
+                <span class="card__title" title="Дорожная сумка ткань">Дорожная сумка ткань</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-09-30"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/travel-bag-leather.jpg" alt="Дорожная сумка кожа">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">9 900 </span>
+                <span class="card__title" title="Дорожная сумка кожа">Дорожная сумка кожа</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2021-12-30"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/bag-neos-classic.jpg" alt="Сумка Neos Classic">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">4 300 </span>
+                <span class="card__title" title="Сумка Neos Classic">Сумка Neos Classic</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-02-11"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/bag-neos-reload.jpg" alt="Сумка Neos Reload">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">6 400 </span>
+                <span class="card__title" title="Сумка Neos Reload">Сумка Neos Reload</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-12-30"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/bag-neos-mini.jpg" alt="Сумка Neos Mini">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">3 900 </span>
+                <span class="card__title" title="Сумка Neos Mini">Сумка Neos Mini</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-01-22"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/cap-nike.jpg" alt="Кепка Nike">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">1 600 </span>
+                <span class="card__title" title="Кепка Nike">Кепка Nike</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-02"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/panama-supreme.jpg" alt="Панама Supreme">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">3 200 </span>
+                <span class="card__title" title="Панама Supreme">Панама Supreme</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2023-05-21"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="card__image-wrapper">
+                <img class="card__image" src="img/products/accessories/winter-hat.jpg" alt="Шапка вязаная зимняя">
+              </div>
+              <div class="card__info">
+                <span class="card__cost">1 800 </span>
+                <span class="card__title" title="Шапка вязаная зимняя">Шапка вязаная зимняя</span>
+                <span class="card__description" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <time class="card__date" datetime="2022-11-21"></time>
+                <button class="card__button">
+                  Приобрести
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__info">
+          <a href="#" class="footer__logo">
+            <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
+                fill="var(--cornflower-blue)" />
+            </svg>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a
+            laoreet libero dis eget maecenas bibendum.
+          </p>
+        </div>
+        <div class="footer__info">
+          <span class="footer__info-title">Категории товаров</span>
+          <nav>
+            <ul class="footer__links">
+              <li><a href="#clothes" class="footer__links-item js-anchor">Одежда</a></li>
+              <li><a href="#shoes" class="footer__links-item">Обувь</a></li>
+              <li><a href="#accessories" class="footer__links-item js-anchor">Аксессуары</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__info">
+          <span class="footer__info-title">Контакты</span>
+          <nav>
+            <ul class="footer__links">
+              <li><a href="https://ru.wikipedia.org/wiki/Telegram" class="footer__links-item">Telegram</a></li>
+              <li><a href="https://ru.wikipedia.org/wiki/Instagram" class="footer__links-item">Instagram</a></li>
+              <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5"
+                  class="footer__links-item">VK</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__info">
+          <span class="footer__info-title">Партнеры</span>
+          <nav>
+            <ul class="footer__links">
+              <li><a href="https://ru.wikipedia.org/wiki/Vans" class="footer__links-item">Vans</a></li>
+              <li><a href="https://ru.wikipedia.org/wiki/Uniqlo" class="footer__links-item">Uniqlo</a></li>
+              <li><a href="https://ru.wikipedia.org/wiki/H%26M" class="footer__links-item">H&M</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <button class="up-button">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M13.9328 1.67513L12.7156 0.496773L11.5285 1.64594C11.5078 1.66507 11.4875 1.68471 11.4677 1.70481L0.743577 12.0867C0.049168 12.7589 0.031201 13.8668 0.703447 14.5612C1.37569 15.2556 2.48359 15.2736 3.178 14.6014L10.9649 7.06302L10.9649 23.7556C10.9649 24.7221 11.7484 25.5056 12.7149 25.5056C13.6814 25.5056 14.4649 24.7221 14.4649 23.7556L14.4649 7.06161L22.2532 14.6014C22.9476 15.2736 24.0555 15.2556 24.7277 14.5612C25.4 13.8668 25.382 12.7589 24.6876 12.0867L13.9328 1.67513Z"
+        fill="currentColor" />
+    </svg>
+  </button>
   <div class="popup">
     <form id="popup-form" class="popup__form">
       <h3 class="popup__name"></h3>
@@ -50,1028 +794,6 @@
       </div>
     </form>
   </div>
-  <div class="wrapper">
-    <header class="header">
-      <a href="#" class="header__logo">
-        <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
-            fill="var(--cornflower-blue)" />
-        </svg>
-      </a>
-      <nav>
-        <ul class="header__menu">
-          <li><a href="#clothes" class="header__menu-item js-anchor">Одежда</a></li>
-          <li><a href="#shoes" class="header__menu-item js-anchor">Обувь</a></li>
-          <li><a href="#accessories" class="header__menu-item js-anchor">Аксессуары</a></li>
-        </ul>
-      </nav>
-      <button class="header__switch-theme">
-        <svg width="24" height="24" fill="none">
-          <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#a)">
-            <circle cx="12" cy="12" r="6" />
-            <path
-              d="M22.5 12H21M1.5 12H3M12 1.5V3M12 22.5V21M19.5 4.5l-1.06 1.06M4.5 19.5l1.06-1.06M19.56 19.56 18.5 18.5M4.44 4.44 5.5 5.5" />
-          </g>
-        </svg>
-      </button>
-    </header>
-    <main class="main">
-      <h1 class="main__title">Neos - интернет-магазин одежды и аксессуаров</h1>
-      <section id="clothes" class="products">
-        <h2 class="products__title">
-          Одежда
-        </h2>
-        <ul class="products__grid">
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" loading="lazy" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">ля какая ляля</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time datetime="2023-06-5" class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">второй пример большой строки
-                    которая длится много второй пример большой строки которая длится много второй пример большой строки
-                    которая длится много</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date" datetime="2022-12-22"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок dsadsadsa
-                  dsadssa bfhjdsabfhb
-                  daskhfbkhjds
-                  bfkjhsakjhfbsadh
-                  jbfkjhasbjh</span>
-                <time class="card__date" datetime="2023-08-01"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section id="shoes" class="products">
-        <h2 class="products__title">
-          Обувь
-        </h2>
-        <ul class="products__grid">
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section id="accessories" class="products">
-        <h2 class="products__title">
-          Аксессуары
-        </h2>
-        <ul class="products__grid">
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="card">
-              <div class="card__image-wrapper">
-                <img class="card__image" src="img/products/clothes/t-shirt.png" alt="Футболка">
-              </div>
-              <div class="card__info">
-                <div class="card__row-wrapper">
-                  <span class="card__title" title="Футболка с логотипо компании bethesda">Футболка с логотипо компании
-                    bethesda</span>
-                  <span class="card__cost">1000 </span>
-                </div>
-                <span class="card__description">Черная, хлопок</span>
-                <time class="card__date"></time>
-                <button class="card__button">
-                  Приобрести
-                </button>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="footer__info">
-          <a href="#" class="footer__logo">
-            <svg width="100%" height="100%" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M18.858 20.4296L16.4045 15.498C16.3391 15.3665 16.2049 15.2833 16.058 15.2833H11.3418C11.195 15.2833 11.0608 15.2002 10.9954 15.0688L7.28106 7.61474C7.22678 7.5058 7.2269 7.37768 7.28137 7.26884L10.7788 0.281405C10.8687 0.101931 10.6596 -0.0787975 10.495 0.0360388L0.165648 7.24244C0.00325766 7.35574 -0.0474571 7.57331 0.0481034 7.74673L11.2923 28.1523C11.3604 28.2759 11.4903 28.3526 11.6314 28.3526H18.5115C18.7252 28.3526 18.8986 28.1793 18.8986 27.9655V20.602C18.8986 20.5422 18.8847 20.4831 18.858 20.4296ZM27.7588 33.3853L21.6438 28.4688C21.5524 28.3953 21.4993 28.2844 21.4993 28.1671V15.4687C21.4993 15.3515 21.5524 15.2405 21.6438 15.1671L27.7588 10.2506C27.9004 10.1367 28.1023 10.1367 28.2439 10.2506L34.3589 15.1671C34.4503 15.2405 34.5034 15.3515 34.5034 15.4687V28.1671C34.5034 28.2844 34.4503 28.3953 34.3589 28.4688L28.2439 33.3853C28.1023 33.4992 27.9004 33.4992 27.7588 33.3853ZM27.7588 43.1873L21.6438 38.2708C21.5524 38.1973 21.4993 38.0864 21.4993 37.9691V32.4279C21.4993 32.1028 21.8756 31.9225 22.1289 32.1262L27.7588 36.6526C27.9004 36.7665 28.1023 36.7665 28.2439 36.6526L33.8738 32.1262C34.1271 31.9225 34.5034 32.1028 34.5034 32.4279V37.9691C34.5034 38.0864 34.4503 38.1973 34.3589 38.2708L28.2439 43.1873C28.1023 43.3012 27.9004 43.3012 27.7588 43.1873ZM21.5476 46.737L27.6626 57.7992C27.8099 58.0656 28.1929 58.0656 28.3401 57.7992L34.4551 46.737C34.4868 46.6797 34.5034 46.6153 34.5034 46.5498V42.2298C34.5034 41.9048 34.1271 41.7245 33.8738 41.9282L28.2439 46.4546C28.1023 46.5685 27.9004 46.5685 27.7588 46.4546L22.1289 41.9282C21.8756 41.7245 21.4993 41.9048 21.4993 42.2298V46.5498C21.4993 46.6153 21.5159 46.6797 21.5476 46.737ZM39.5987 15.498L37.1452 20.4296C37.1186 20.4831 37.1047 20.5422 37.1047 20.602V27.9655C37.1047 28.1793 37.278 28.3526 37.4918 28.3526H44.3719C44.5129 28.3526 44.6428 28.2759 44.7109 28.1523L55.9551 7.74673C56.0507 7.57331 56 7.35574 55.8376 7.24244L45.5082 0.0360388C45.3436 -0.0787975 45.1346 0.101931 45.2244 0.281405L48.7219 7.26897C48.7764 7.37774 48.7765 7.50576 48.7224 7.61466L45.014 15.0686C44.9485 15.2001 44.8143 15.2833 44.6674 15.2833H39.9453C39.7984 15.2833 39.6641 15.3665 39.5987 15.498ZM13.5171 30.9664H18.5117C18.7255 30.9664 18.8988 31.1398 18.8988 31.3535V35.5407V41.9252C18.8988 42.1285 18.6255 42.1943 18.533 42.0133L13.1725 31.5298C13.0408 31.2722 13.2278 30.9664 13.5171 30.9664ZM37.4915 30.9664H42.4861C42.7754 30.9664 42.9625 31.2722 42.8308 31.5298L37.4703 42.0133C37.3777 42.1943 37.1044 42.1285 37.1044 41.9252V35.5407V31.3535C37.1044 31.1398 37.2777 30.9664 37.4915 30.9664Z"
-                fill="var(--cornflower-blue)" />
-            </svg>
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a
-            laoreet libero dis eget maecenas bibendum.
-          </p>
-        </div>
-        <div class="footer__info">
-          <span class="footer__info-title">Категории товаров</span>
-          <nav>
-            <ul class="footer__links">
-              <li><a href="#clothes" class="footer__links-item js-anchor">Одежда</a></li>
-              <li><a href="#shoes" class="footer__links-item">Обувь</a></li>
-              <li><a href="#accessories" class="footer__links-item js-anchor">Аксессуары</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__info">
-          <span class="footer__info-title">Категории товаров</span>
-          <nav>
-            <ul class="footer__links">
-              <li><a href="" class="footer__links-item">Одежда</a></li>
-              <li><a href="" class="footer__links-item">Обувь</a></li>
-              <li><a href="" class="footer__links-item">Аксессуары</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__info">
-          <span class="footer__info-title">Категории товаров</span>
-          <nav>
-            <ul class="footer__links">
-              <li><a href="" class="footer__links-item">Одежда</a></li>
-              <li><a href="" class="footer__links-item">Обувь</a></li>
-              <li><a href="" class="footer__links-item">Аксессуары</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </footer>
-    <button class="up-button">
-      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M13.9328 1.67513L12.7156 0.496773L11.5285 1.64594C11.5078 1.66507 11.4875 1.68471 11.4677 1.70481L0.743577 12.0867C0.049168 12.7589 0.031201 13.8668 0.703447 14.5612C1.37569 15.2556 2.48359 15.2736 3.178 14.6014L10.9649 7.06302L10.9649 23.7556C10.9649 24.7221 11.7484 25.5056 12.7149 25.5056C13.6814 25.5056 14.4649 24.7221 14.4649 23.7556L14.4649 7.06161L22.2532 14.6014C22.9476 15.2736 24.0555 15.2556 24.7277 14.5612C25.4 13.8668 25.382 12.7589 24.6876 12.0867L13.9328 1.67513Z"
-          fill="currentColor" />
-      </svg>
-    </button>
-  </div>
-
   <script type="module" src="/main.js"></script>
 </body>
 

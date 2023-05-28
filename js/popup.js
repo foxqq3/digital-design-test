@@ -8,7 +8,6 @@ export default function popup() {
   for (const card of cards) {
     const openButton = card.querySelector('.card__button');
     const cardTitle = card.querySelector('.card__title').getAttribute('title');
-
     openButton.addEventListener('click', () => {
       body.style.paddingRight = `${
         window.innerWidth - document.documentElement.clientWidth
@@ -25,11 +24,13 @@ export default function popup() {
   closeButton.addEventListener('click', (e) => {
     e.preventDefault();
     hidePopup();
+    form.reset();
   });
 
   popup.addEventListener('click', (e) => {
     if (e.target === popup) {
       hidePopup();
+      form.reset();
     }
   });
 
@@ -41,7 +42,6 @@ export default function popup() {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-
     const productName = form.querySelector('input[name="product-name"]').value;
     const productQuantity = form.querySelector(
       'input[name="product-quantity"]'
@@ -51,12 +51,11 @@ export default function popup() {
     ).value;
     const productColor = [
       ...form.querySelectorAll('input[name="product-color"]'),
-    ].reduce((acc, i) => {
-      acc = i.value;
-      return acc;
-    }, '');
-    alert(`Покупка прошла успешно!\nВаш заказ: ${productName}\nКоличество: ${productQuantity}\nЦвет: ${productColor}\nКомментарий к заказу: ${productComment}`);
-    e.target.reset();
+    ].find(item => item.checked === true).value;
+    alert(
+      `Покупка прошла успешно!\nВаш заказ: ${productName}\nКоличество: ${productQuantity}\nЦвет: ${productColor}\nКомментарий к заказу: ${productComment}`
+    );
+    form.reset();
     hidePopup();
   });
 }

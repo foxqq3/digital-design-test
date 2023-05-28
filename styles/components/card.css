@@ -37,21 +37,13 @@
     margin-top: 8px;
 }
 
-.card__row-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
 .card__title {
-    max-width: 70%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    word-wrap: normal;
+    font-weight: 600;
 }
 
 .card__cost {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .card__cost::after {
@@ -61,6 +53,10 @@
 
 .card__description {
     color: var(--waterloo);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
 }
 
 .card__date {
