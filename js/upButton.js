@@ -5,7 +5,7 @@ export default function upButton() {
   window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrollY > 300) {
+    if (scrollY > 150) {
       header.classList.add('header__wrapper_border');
     } else {
       header.classList.remove('header__wrapper_border');
